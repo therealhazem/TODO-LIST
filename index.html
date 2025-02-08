@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="font-roboto bg-cyan-950">
+<!-- header -->
+ <header class="flex container mx-auto items-center justify-center rounded-b-2xl bg-white">
+    <h1 class="font-bold text-cyan-950 text-[3vw]">
+        ToDo List
+    </h1>
+ </header>
+<!-- tasks body -->
+ <div id="tasks_div" class="flex-col container mx-auto items-center justify-center h-screen rounded-t-2xl mt-[1.5vw] bg-white space-y-4 p-[1.5vw] relative">
+    <div class="task">
+        <p class="text-[1.3vw] font-medium basis-3/4">Task Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero veritatis cum libero magni nemo. Maxime molestias adipisci pariatur perferendis harum amet aspernatur assumenda magni, officiis aperiam quibusdam, ex recusandae!</p>
+        <div class="flex space-x-3 text-[1.2vw] font-medium items-center justify-center">
+            <button class="done-button">Done</button>
+            <button class="delete-button">Delete</button>
+            <button class="edit-button">Edit</button> 
+        </div>
+    </div>
+    
+</div>
+<!-- add task button -->
+<button id="add" class="add bg-white">
+    +
+</button>
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="todo.js"></script>
+</body>
+</html>
