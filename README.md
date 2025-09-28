@@ -247,16 +247,16 @@ The application can be deployed to any platform that supports static sites:
 <div align="center">
 
 ### Hero Section
-![Hero Section](public/images/hero.png)
+![Hero Section](/images/Hero.png)
 
 ### Features Section
-![Features Section](public/images/feature-1.png)
+![Features Section](/images/Features.png)
 
 ### Pricing Plans
-![Pricing Plans](public/images/plan-1.png)
+![Pricing Plans](/images/Pricing.png)
 
 ### Testimonials
-![Testimonials](public/images/testimonials/jessica-saunders.png)
+![Testimonials](/images/Testimonials.png)
 
 </div>
 
@@ -291,5 +291,6 @@ We welcome contributions! Please follow these steps:
 **🌐 Check our [Live Demo](https://xorasass.netlify.app/)**
 
 [⭐ Star this repo](https://github.com/yourusername/xora-saas) • [🐛 Report Bug](https://github.com/yourusername/xora-saas/issues) • [💡 Request Feature](https://github.com/yourusername/xora-saas/issues)
+
 
 </div>
